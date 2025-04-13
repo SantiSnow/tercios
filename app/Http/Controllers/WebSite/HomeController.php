@@ -9,27 +9,27 @@ use App\Models\Member;
 use App\Models\Property;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Inertia\Response;
 
 class HomeController extends Controller
 {
     /**
-     * @return \Inertia\Response
+     * @return Response
      */
-    public function index(): \Inertia\Response
+    public function index(): Response
     {
-        return Inertia::render('Servicios/Inmobiliario', []);
-//        $properties = Property::with(['images' => function ($query) {
-//            $query->orderBy('place');
-//        }])
-//            ->with('type')
-//            ->orderBy('id', 'desc')
-//            ->take(3)
-//            ->get();
-//
-//        return Inertia::render('Welcome', [
-//            'properties' => $properties,
-//            'cities' => City::with('property')->has('property')->get()->pluck('name'),
-//        ]);
+        $properties = Property::with(['images' => function ($query) {
+            $query->orderBy('place');
+        }])
+            ->with('type')
+            ->orderBy('id', 'desc')
+            ->take(3)
+            ->get();
+
+        return Inertia::render('Welcome', [
+            'properties' => $properties,
+            'cities' => City::with('property')->has('property')->get()->pluck('name'),
+        ]);
     }
 
     public function sell()
