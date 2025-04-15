@@ -30,8 +30,8 @@ import { Link } from "@inertiajs/vue3";
                             Servicios
                         </a>
                         <ul class="dropdown-menu hidden" id="sec-dropdown">
-<!--                            <li><Link href="/juridico" class="dropdown-item">Jurídico</Link></li>-->
-<!--                            <li><Link href="/contable" class="dropdown-item">Contable</Link></li>-->
+                            <li><Link href="/juridico" class="dropdown-item">Jurídico</Link></li>
+                            <li><Link href="/contable" class="dropdown-item">Contable</Link></li>
                             <li><Link href="/inmobiliario" class="dropdown-item">Inmobiliario</Link></li>
                             <li><Link href="/desarrollos" class="dropdown-item" >Desarrollos</Link></li>
                         </ul>
@@ -51,15 +51,15 @@ import { Link } from "@inertiajs/vue3";
                             <li><Link href="/tasar" class="dropdown-item">Tasa tu propiedad</Link></li>
                         </ul>
                     </li>
-<!--                    <li class="nav-item">-->
-<!--                        <Link class="nav-link" href="/staff">Nuestro Equipo</Link>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <Link class="nav-link" href="/tu-red">Tu Red</Link>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <Link href="/blog" class="nav-link">Blog</Link>-->
-<!--                    </li>-->
+                    <li class="nav-item">
+                        <Link class="nav-link" href="/staff">Nuestro Equipo</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" href="/tu-red">Tu Red</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link href="/blog" class="nav-link">Blog</Link>
+                    </li>
                     <li :class="route().current('contact') ? 'nav-item nav-outstanding contact-current' : 'nav-item nav-outstanding'">
                         <Link href="/contacto" class="nav-link">Contactanos</Link>
                     </li>

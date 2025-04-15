@@ -12,18 +12,18 @@ import { Link } from "@inertiajs/vue3";
                 <div class="col-12 col-sm-12 col-md-3 justify-content-center">
                     <h3 class="dms-sans-reg footer-title">REDFOX</h3>
                     <ul class="dms-sans-reg">
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/blog">Blog y novedades</Link>-->
-<!--                        </li>-->
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/staff">Nuestro equipo</Link>-->
-<!--                        </li>-->
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/staff#contacto">Sumate a nuestro Staff</Link>-->
-<!--                        </li>-->
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/tu-red">Adherite a RedFox</Link>-->
-<!--                        </li>-->
+                        <li class="list-footer mt-2">
+                            <Link href="/blog">Blog y novedades</Link>
+                        </li>
+                        <li class="list-footer mt-2">
+                            <Link href="/staff">Nuestro equipo</Link>
+                        </li>
+                        <li class="list-footer mt-2">
+                            <Link href="/staff#contacto">Sumate a nuestro Staff</Link>
+                        </li>
+                        <li class="list-footer mt-2">
+                            <Link href="/tu-red">Adherite a RedFox</Link>
+                        </li>
                         <li class="list-footer mt-2">
                             <Link href="/contacto">Contactanos</Link>
                         </li>
@@ -41,21 +41,21 @@ import { Link } from "@inertiajs/vue3";
                         <li class="list-footer mt-2">
                             <Link href="/tasar">Tasá tu propiedad</Link>
                         </li>
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/desarrollos">Desarrollos inmobiliarios</Link>-->
-<!--                        </li>-->
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/contacto">Recibí asesoramiento</Link>-->
-<!--                        </li>-->
+                        <li class="list-footer mt-2">
+                            <Link href="/desarrollos">Desarrollos inmobiliarios</Link>
+                        </li>
+                        <li class="list-footer mt-2">
+                            <Link href="/contacto">Recibí asesoramiento</Link>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-3">
                     <h3 class="dms-sans-reg footer-title">DESARROLLOS INMOBILIARIOS</h3>
                     <ul class="dms-sans-reg">
-<!--                        <li class="list-footer mt-2">-->
-<!--                            <Link href="/staff">Nuestro equipo</Link>-->
-<!--                        </li>-->
+                        <li class="list-footer mt-2">
+                            <Link href="/staff">Nuestro equipo</Link>
+                        </li>
                         <li class="list-footer mt-2">
                             <Link href="/desarrollos">Recibí asesoramiento</Link>
                         </li>
