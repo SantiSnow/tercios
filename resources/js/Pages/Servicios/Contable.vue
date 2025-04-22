@@ -14,8 +14,8 @@ img_3.src="/images/services-carousel/carousel-contable3.jpg";
     <PageLayout>
         <ServiceBanner
             title="SERVICIOS CONTABLES"
-            subtitle="AYUDAMOS A LAS EMPRESAS A ALCANZAR SUS METAS FINANCIERAS Y A MANTENER LA"
-            subtitle_second="CONFORMIDAD CON LAS NORMAS Y REGULACIONES."
+            subtitle=""
+            subtitle_second=""
             background="contable"
         />
         <section class="py-24 bg-servicios">
@@ -28,31 +28,36 @@ img_3.src="/images/services-carousel/carousel-contable3.jpg";
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <p class="dms-sans-reg">
-                                        Desde RedFox, ofrecemos una amplia gama de servicios contables diseñados
-                                        para solucionar los problemas financieros, inmobiliarios, impositivos y
-                                        fiscales de nuestros clientes.
+                                        Nuestra red de profesionales contables ofrece un asesoramiento a nivel nacional e
+                                        internacional. Abordamos los desafíos financieros, fiscales e inmobiliarios de
+                                        nuestros clientes de manera estratégica y personalizada.
                                     </p>
                                     <p class="dms-sans-reg">
-                                        Nuestro equipo de profesionales se dedica a dar soluciones y satisfacer las
-                                        necesidades de nuestros clientes con el objetivo de hacerlos alcanzar sus
-                                        metas financieras, garantizando el cumplimiento de las normativas. Gracias a
-                                        la integridad y solidez de nuestros servicios.
+                                        A través de nuestra experiencia y de las alianzas estratégicas y colaborativas con
+                                        profesionales de otras jurisdicciones, proporcionamos soluciones adaptadas a las
+                                        necesidades específicas de cada cliente, asegurando una gestión eficiente y el
+                                        cumplimiento normativo en todos los niveles.
                                     </p>
                                 </div>
                                 <div class="carousel-item">
                                     <p class="dms-sans-reg">
-                                        Nuestros profesionales del rubro contable brindan:
+                                        Contamos con un equipo de expertos que, con transparencia y compromiso, trabaja
+                                        para optimizar la administración financiera, minimizar riesgos y garantizar el
+                                        cumplimiento de las regulaciones fiscales e impositivas a nivel local e internacional.
+                                    </p>
+                                    <p class="dms-sans-reg">
+                                        Áreas de especialización:
                                     </p>
                                     <ul class="dms-sans-reg p-1 custom-list">
-                                        <li>Asesoramiento impositivo a Empresas, Pymes y Personas Físicas.</li>
+                                        <li>Asesoramiento impositivo para Empresas, Pymes y Personas Físicas.</li>
+                                        <li>Auditorias de procesos internos.</li>
                                         <li>Análisis y liquidación de impuestos.</li>
-                                        <li>Atención de inspecciones.</li>
-                                        <li>Proyectos de Inversión.</li>
-                                        <li>Administración Fideicomisos.</li>
-                                        <li>Registración Contable, Balances y Auditorías.</li>
-                                        <li>Asesoramiento y confección de regímenes de facilidades de pago impositivos.</li>
+                                        <li>Gestión de inspecciones fiscales.</li>
+                                        <li>Proyectos de inversión y planificación estratégica.</li>
+                                        <li>Administración de fideicomisos.</li>
+                                        <li>Registración contable, elaboración de balances y auditorías.</li>
+                                        <li>Diseño y confección de regímenes de facilidades de pago impositivos.</li>
                                     </ul>
-                                    <Link href="/contacto" class="btn btn-danger uppercase dms-sans-reg mx-2 px-4">contactanos</Link>
                                 </div>
                             </div>
 

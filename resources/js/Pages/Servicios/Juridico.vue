@@ -17,8 +17,8 @@ img_5.src="/images/services-carousel/carousel-juridico5.jpg";
     <PageLayout>
         <ServiceBanner
             title="SERVICIOS JURÍDICOS"
-            subtitle="TE BRINDAMOS UN ESTRATÉGICO ASESORAMIENTO EN TODAS LAS ÁREAS DEL"
-            subtitle_second="DERECHO, SIEMPRE CON UNA MIRADA MULTIDISCIPLINARIA."
+            subtitle=""
+            subtitle_second=""
             background="juridico"
         />
         <section class="py-24 bg-servicios">
@@ -31,29 +31,34 @@ img_5.src="/images/services-carousel/carousel-juridico5.jpg";
                             <div class="carousel-inner service-text-box" id="">
                                 <div class="carousel-item active">
                                     <p class="dms-sans-reg">
-                                        Ofrecemos asesoramiento jurídico avalado por una sólida experiencia de más de 20
-                                        años en el mercado, garantizando la excelencia en la prestación de servicios
-                                        legales. La conformación multidisciplinaria del equipo nos permite proporcionar
-                                        soluciones eficaces de manera sinérgica y customizada de acuerdo a las
-                                        necesidades del cliente.
+                                        Nuestra red de profesionales está comprometida en ofrecer soluciones legales multidisciplinarias,
+                                        estratégicas y personalizadas. Conformamos equipos de abogados con presencia en diversas jurisdicciones
+                                        para proteger los derechos e intereses de nuestros clientes en un mundo cada vez más dinámico y complejo.
                                     </p>
-<!--                                    <p class="dms-sans-reg">-->
-<!--                                        Además, la colaboración de nuestro equipo multidisciplinario, nos-->
-<!--                                        permite proporcionar soluciones eficaces de una manera sinérgica-->
-<!--                                        adaptándonos a las necesidades particulares de cada cliente.-->
-<!--                                    </p>-->
+                                    <p class="dms-sans-reg">
+                                        Asesoramos y litigamos a nivel nacional e internacional. A través de la incorporación
+                                        de distintos estudios asociados logramos una cobertura integral y global para ofrecer
+                                        soluciones legales de vanguardia.
+                                    </p>
                                 </div>
                                 <div class="carousel-item">
-
                                     <p class="dms-sans-reg">
-                                        Nuestros profesionales se destacan por brindar un asesoramiento estratégico y
-                                        altamente especializado en diversas áreas legales. Con un 98% de casos de exito
-                                        trabajamos comprendiendo las necesidades y desafíos de los clientes en entornos
-                                        legales complejos y cambiantes. Estamos comprometidos con la excelencia en el
-                                        ámbito empresarial, civil, penal, laboral, comercial, inmobiliario, y concursos y
-                                        quiebras.
+                                        Nuestra filosofía se basa en la eficiencia, la transparencia y el compromiso con la excelencia.
+                                        Buscando incorporar y potenciar a los profesionales asociados a Tercios.
                                     </p>
-                                    <Link href="/contacto" class="btn btn-danger uppercase dms-sans-reg mx-2 mb-2 px-4">contactanos</Link>
+                                    <strong class="dms-sans-reg">
+                                        Áreas de especialización:
+                                    </strong>
+                                    <ul class="dms-sans-reg p-1">
+                                        <li>Derecho Penal</li>
+                                        <li>Derecho Civil y Comercial</li>
+                                        <li>Derecho Laboral y Seguridad Social</li>
+                                        <li>Compliance</li>
+                                        <li>Negocios Inmobiliarios</li>
+                                        <li>Concursos y Quiebras</li>
+                                        <li>Derecho Tributario</li>
+                                        <li>Fusiones y Adquisiciones</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -66,14 +71,7 @@ img_5.src="/images/services-carousel/carousel-juridico5.jpg";
                 </div>
             </div>
         </section>
-        <MiddleBanner />
-        <section class="bg-color-lightblue">
-            <div class="container py-12">
-                <div class="row d-flex justify-center">
-                    <MapsCarousel />
-                </div>
-            </div>
-        </section>
+
     </PageLayout>
 </template>
 

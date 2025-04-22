@@ -1,8 +1,8 @@
-# RedFox Website Project
+# Tercios Website Project
 
 ## About the project
 
-This is the repository for the RedFox Argentina website. This includes the website frontend as well as the dashboard panel. This is all created 
+This is the repository for the RedFox/Tercios Argentina website. This includes the website frontend as well as the dashboard panel. This is all created 
 under the monolithic structure of Laravel with Inertia.
 
 ## Technologies and dependencies

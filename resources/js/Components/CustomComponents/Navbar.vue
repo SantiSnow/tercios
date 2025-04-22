@@ -6,7 +6,7 @@ import { Link } from "@inertiajs/vue3";
     <nav :class="'navbar navbar-expand-lg bg-body-tertiary custom-transparent-navbar ' + ((!atTop || route().current('contact')) && 'bg-white-nav ')">
         <div class="container">
             <Link class="navbar-brand" href="/">
-                <img src="/images/redfox-logo-header.png" alt="RedFox Logo" class="w-36" />
+                <img src="/images/tercios-logo.png" alt="RedFox Logo" class="w-32" />
             </Link>
 
             <button class="navbar-toggler"
@@ -17,8 +17,26 @@ import { Link } from "@inertiajs/vue3";
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div :class="(route().current('property.detail.page') || route().current('properties.renting') || route().current('properties.selling')) || route().current('contact') ? 'flex property-inside' : 'flex'" id="navbar-main">
+            <div :class="(route().current('property.detail.page') || route().current('properties.renting') || route().current('properties.selling')) || route().current('contact') ? 'flex property-inside' : 'flex'"
+                 id="navbar-main">
                 <ul class="nav" id="ul-main-navbar">
+<!--                    <li class="nav-item dropdown"-->
+<!--                        @mouseenter="open('firstDrop')"-->
+<!--                        @mouseleave="open('firstDrop')">-->
+<!--                        <a class="nav-link dropdown-toggle"-->
+<!--                           href="#" role="button"-->
+<!--                           data-bs-toggle="dropdown"-->
+<!--                           aria-expanded="false">-->
+<!--                            Nosotros-->
+<!--                        </a>-->
+<!--                        <ul class="dropdown-menu hidden" id="first-dropdown">-->
+<!--                            <li><Link href="/alquilar" class="dropdown-item">Tercios</Link></li>-->
+<!--                            <li><Link href="/comprar" class="dropdown-item">Nuestro Equipo</Link></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+                    <li class="nav-item">
+                        <Link href="/" class="nav-link">Nosotros</Link>
+                    </li>
                     <li class="nav-item dropdown"
                         @mouseenter="open('secDrop')"
                         @mouseleave="open('secDrop')"
@@ -32,30 +50,9 @@ import { Link } from "@inertiajs/vue3";
                         <ul class="dropdown-menu hidden" id="sec-dropdown">
                             <li><Link href="/juridico" class="dropdown-item">Jurídico</Link></li>
                             <li><Link href="/contable" class="dropdown-item">Contable</Link></li>
-                            <li><Link href="/inmobiliario" class="dropdown-item">Inmobiliario</Link></li>
+<!--                            <li><Link href="/inmobiliario" class="dropdown-item">Inmobiliario</Link></li>-->
                             <li><Link href="/desarrollos" class="dropdown-item" >Desarrollos</Link></li>
                         </ul>
-                    </li>
-                    <li class="nav-item dropdown"
-                        @mouseenter="open('firstDrop')"
-                        @mouseleave="open('firstDrop')">
-                        <a class="nav-link dropdown-toggle"
-                           href="#" role="button"
-                           data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                            Propiedades
-                        </a>
-                        <ul class="dropdown-menu hidden" id="first-dropdown">
-                            <li><Link href="/alquilar" class="dropdown-item">Alquilar</Link></li>
-                            <li><Link href="/comprar" class="dropdown-item">Comprar</Link></li>
-                            <li><Link href="/tasar" class="dropdown-item">Tasa tu propiedad</Link></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="/staff">Nuestro Equipo</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="/tu-red">Tu Red</Link>
                     </li>
                     <li class="nav-item">
                         <Link href="/blog" class="nav-link">Blog</Link>

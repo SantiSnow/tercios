@@ -13,9 +13,9 @@ img_3.src="/images/services-carousel/carousel-desarrollos3.jpg";
 <template>
     <PageLayout>
         <ServiceBanner
-            title="SERVICIOS DE DESARROLLOS Y EMPRENDIMIENTOS INMOBILIARIOS"
-            subtitle="ADMINISTRAMOS Y ASESORAMOS A INVERSORES PARA PERMITIRLES DETECTAR"
-            subtitle_second="OPORTUNIDADES DE NEGOCIOS EN LAS DIFERENTES SITUACIONES MACROECONÓMICAS."
+            title="Desarrollos e inversiones inmobiliarias"
+            subtitle=""
+            subtitle_second=""
             background="desarrollo"
         />
         <section class="py-24 bg-servicios">
@@ -28,34 +28,47 @@ img_3.src="/images/services-carousel/carousel-desarrollos3.jpg";
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <p class="dms-sans-reg">
-                                        Nuestro equipo de desarrollo inmobiliario cuenta con herramientas
-                                        modernas para ayudarte a expandir tu negocio.
+                                        Nuestros equipos multidisciplinarios de profesionales se especializan en
+                                        ofrecer soluciones estratégicas y personalizadas para generar desarrollos
+                                        inmobiliarios con una visión de eficiencia funcional, comercial
+                                        marcada por nuestros valores.
                                     </p>
                                     <p class="dms-sans-reg">
-                                        En un mercado saturado de nuevas propuestas, la capacidad de planificar
-                                        y evaluar estrategias que conduzcan a proyectos y programas sostenibles
-                                        es esencial. Nuestro equipo de profesionales, el cual abarca los campos
-                                        inmobiliario, contable, impositivo y jurídico, nos permite lograr este objetivo.
+                                        Trabajamos de manera coordinada para asegurar que cada proyecto o inversión
+                                        inmobiliaria se gestione de forma segura y exitosa, y se adapte a los desafíos
+                                        específicos de cada cliente y entorno.
                                     </p>
                                 </div>
                                 <div class="carousel-item">
                                     <p class="dms-sans-reg">
-                                        Nuestros expertos en la materia podrán conducir en forma exitosa
-                                        tus proyectos, gracias a su:
+                                        Nuestros equipos asesoran a desarrolladoras y constructoras en: adquisiciones
+                                        inmobiliarias, compra de campos y terrenos; resolviendo problemáticas jurídicas,
+                                        contables e impositivas. Diseñamos valor cumpliendo los plazos estipulados,
+                                        asegurando que cada proyecto logre los estándares deseados de calidad y eficacia.
+                                    </p>
+                                    <p class="dms-sans-reg">
+                                        Desde el inicio hasta la finalización de cada desarrollo, gestionamos las
+                                        complejidades inherentes a cada fase, optimizando los costos fiscales,
+                                        resolviendo contratiempos jurídicos y maximizando el rendimiento del proyecto.
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="dms-sans-reg">
+                                        Nos destacamos por nuestra:
                                     </p>
                                     <ul class="dms-sans-reg p-1">
-                                        <li>Creatividad.</li>
-                                        <li>Flexibilidad.</li>
-                                        <li>Innovación.</li>
-                                        <li>Profesionalismo.</li>
+                                        <li><strong>Creatividad</strong> en la búsqueda de soluciones innovadoras.</li>
+                                        <li><strong>Flexibilidad</strong> para adaptarnos a los requerimientos específicos de cada cliente.</li>
+                                        <li><strong>Innovación</strong> en procesos y estrategias de desarrollo.</li>
+                                        <li><strong>Profesionalismo</strong> en la ejecución de cada proyecto, asegurando resultados de alta calidad.</li>
                                     </ul>
-                                    <Link href="/contacto" class="btn btn-danger uppercase dms-sans-reg mx-2 px-4">contactanos</Link>
                                 </div>
                             </div>
 
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                         </div>
                     </div>

@@ -18,8 +18,8 @@ export default {
         <div class="">
             <div class="jumbotron blog-jumbotron">
                 <div class="container justify-center align-center title-sec-container">
-                    <h3 class="title-section uppercase text-center text-white">Mantenete al tanto </h3>
-                    <p class="uppercase text-center dms-sans-reg text-white">con las últimas novedades de RedFox</p>
+                    <h3 class="title-section uppercase text-center text-white">Tercios </h3>
+<!--                    <p class="uppercase text-center dms-sans-reg text-white">con las últimas novedades de RedFox</p>-->
                 </div>
             </div>
         </div>
@@ -48,7 +48,10 @@ export default {
 
         <div class="container my-12 px-4">
             <div class="row gap-8">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-4 post-card" v-for="(post, index) in posts">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 my-4 post-card"
+                     v-for="(post, index) in posts"
+                     :key="index"
+                >
                     <inertia-link :href="'/post/'+post.id">
                         <img :src="'/storage/posts/'+post.image" alt="Noticia Imagen" class="w-img-100" />
                     </inertia-link>

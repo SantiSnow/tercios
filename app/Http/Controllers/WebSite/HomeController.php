@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\City;
 use App\Models\Estate;
 use App\Models\Member;
+use App\Models\Post;
 use App\Models\Property;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -18,17 +19,9 @@ class HomeController extends Controller
      */
     public function index(): Response
     {
-        $properties = Property::with(['images' => function ($query) {
-            $query->orderBy('place');
-        }])
-            ->with('type')
-            ->orderBy('id', 'desc')
-            ->take(3)
-            ->get();
-
         return Inertia::render('Welcome', [
-            'properties' => $properties,
-            'cities' => City::with('property')->has('property')->get()->pluck('name'),
+            'posts' => Post::orderBy('id', 'desc')
+                ->get(),
         ]);
     }
 

@@ -12,10 +12,9 @@ import { Link } from "@inertiajs/vue3";
                     <div class="card-custom overlap-card-right fadeInRight cardSider transition-10s" id="firstSlideSide">
                         <h4 class="redfox-red">DESARROLLOS INMOBILIARIOS</h4>
                         <p class="text-nine dms-sans-reg">
-                            En <span class="redfox-red">RedFox</span> administramos y
-                            asesoramos a inversores en desarrollos inmobiliarios para
-                            permitirles detectar oportunidades de negocios en las
-                            diferentes situaciones macroeconómicas.
+                            En <span class="redfox-red">Tercios</span> administramos y asesoramos a
+                            inversores en desarrollos inmobiliarios para permitirles detectar
+                            oportunidades de negocios en las diferentes situaciones macroeconómicas
                         </p>
                         <Link href="/desarrollos" class="btn btn-danger btn-height-standard danger-transition dms-sans-reg">Contactanos</Link>
                     </div>
@@ -27,10 +26,10 @@ import { Link } from "@inertiajs/vue3";
                     <div class="card-custom fadeInLeft cardSider transition-10s" id="secondSlideSide">
                         <h4 class="redfox-red">ADHERÍ TU OFICINA A REDFOX</h4>
                         <p class="text-nine dms-sans-reg">
-                            Podés ser parte de <span class="redfox-red">RedFox</span>,
-                            la red más grande de profesionales que brindan servicios
-                            inmobiliarios, jurídicos y contables. Podrás posicionarte
-                            en el mercado inmobiliario de tu zona, brindando asesoramiento 360°.
+                            Podés ser parte de <span class="redfox-red">Tercios</span>,
+                            la red de profesionales que brinda servicios jurídicos y
+                            contables. Podrás posicionarte en el mercado brindando un
+                            asesoramiento integral.
                         </p>
                         <Link href="/tu-red" class="btn btn-danger btn-height-standard danger-transition dms-sans-reg">Contactanos</Link>
                     </div>

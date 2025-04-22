@@ -11,10 +11,10 @@ import { Link } from "@inertiajs/vue3";
                     <h4 class="card-title">SERVICIOS <br />JURÍDICOS</h4>
 
                     <p class="mt-4 dms-sans-reg">
-                        Nuestra red de profesionales brinda a
-                        clientes un estratégico asesoramiento en
-                        todas las áreas del derecho, siempre con
-                        una mirada multidisciplinaria.
+                        Nuestra red de profesionales brinda
+                        asesoramiento estratégico en todas
+                        las áreas del derecho con una mirada
+                        multidisciplinaria
                     </p>
 
                     <Link href="/juridico" class="btn btn-danger mt-8 btn-height-standard dms-sans-reg">
@@ -27,10 +27,10 @@ import { Link } from "@inertiajs/vue3";
                     <h4 class="card-title">SERVICIOS <br />INMOBILIARIOS</h4>
 
                     <p class="mt-4 dms-sans-reg">
-                        Desde RedFox trabajamos en equipo para
-                        poder llevarte una solución a medida. Te
-                        acompañamos desde la excelencia,
-                        eficacia, seguridad y profesionalismo.
+                        Nos especializamos en ofrecer soluciones
+                        estratégicas y personalizadas para generar
+                        desarrollos inmobiliarios eficientes, funcionales
+                        y comercialmente exitosos.
                     </p>
 
                     <Link href="/inmobiliario" class="btn btn-danger btn-height-standard mt-8 dms-sans-reg">
@@ -43,10 +43,10 @@ import { Link } from "@inertiajs/vue3";
                     <h4 class="card-title">SERVICIOS <br />CONTABLES</h4>
 
                     <p class="mt-4 dms-sans-reg">
-                        Nuestro equipo de expertos ayudan
-                        a las empresas a alcanzar sus metas
-                        financieras y a mantener la conformidad
-                        con las normas y regulaciones.
+                        Brindamos asesoramiento a nivel nacional e
+                        internacional, abordando los desafíos
+                        financieros, fiscales e inmobiliarios de
+                        manera estratégica y personalizada.
                     </p>
 
                     <Link href="/contable" class="btn btn-danger btn-height-standard mt-8 dms-sans-reg">
