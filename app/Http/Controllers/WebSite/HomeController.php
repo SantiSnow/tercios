@@ -25,6 +25,17 @@ class HomeController extends Controller
         ]);
     }
 
+    /**
+     * @return Response
+     */
+    public function nosotros(): Response
+    {
+        return Inertia::render('Nosotros', [
+            'posts' => Post::orderBy('id', 'desc')
+                ->get(),
+        ]);
+    }
+
     public function sell()
     {
         return Inertia::render('Sell', [

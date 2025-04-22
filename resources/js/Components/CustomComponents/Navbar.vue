@@ -35,7 +35,7 @@ import { Link } from "@inertiajs/vue3";
 <!--                        </ul>-->
 <!--                    </li>-->
                     <li class="nav-item">
-                        <Link href="/" class="nav-link">Nosotros</Link>
+                        <Link href="/nosotros" class="nav-link">Nosotros</Link>
                     </li>
                     <li class="nav-item dropdown"
                         @mouseenter="open('secDrop')"

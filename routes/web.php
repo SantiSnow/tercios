@@ -23,6 +23,8 @@ use Inertia\Inertia;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+Route::get('/nosotros', [HomeController::class, 'nosotros']);
+
 Route::get('/contable', [HomeController::class, 'contable']);
 Route::get('/juridico', [HomeController::class, 'juridico']);
 Route::get('/inmobiliario', [HomeController::class, 'inmobiliario']);
