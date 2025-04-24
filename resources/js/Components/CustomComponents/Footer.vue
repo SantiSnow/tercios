@@ -10,7 +10,7 @@ import { Link } from "@inertiajs/vue3";
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-3 justify-content-center">
-                    <h3 class="dms-sans-reg footer-title">REDFOX</h3>
+                    <h3 class="dms-sans-reg footer-title">TERCIOS</h3>
                     <ul class="dms-sans-reg">
                         <li class="list-footer mt-2">
                             <Link href="/blog">Blog y novedades</Link>
