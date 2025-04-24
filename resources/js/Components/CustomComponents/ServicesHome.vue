@@ -24,7 +24,7 @@ import { Link } from "@inertiajs/vue3";
             <div class="row sm-row-reverse justify-center align-center pb-12">
                 <div class="col-12 col-sm-12 col-md-4 z-index-20">
                     <div class="card-custom fadeInLeft cardSider transition-10s" id="secondSlideSide">
-                        <h4 class="redfox-red">ADHERÍ TU OFICINA A REDFOX</h4>
+                        <h4 class="redfox-red">ADHERÍ TU OFICINA A TERCIOS</h4>
                         <p class="text-nine dms-sans-reg">
                             Podés ser parte de <span class="redfox-red">Tercios</span>,
                             la red de profesionales que brinda servicios jurídicos y
