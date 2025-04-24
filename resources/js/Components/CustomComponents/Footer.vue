@@ -79,7 +79,7 @@ import { Link } from "@inertiajs/vue3";
             </div>
             <div class="row b-top-redfox" id="social-container">
                 <span class="flex justify-center" id="social-footer">
-                    <a href="https://www.instagram.com/redfoxargentina/?hl=es" class="rrss-link" target='_blank'>
+                    <a href="https://www.instagram.com/tercios.argentina/?hl=es" class="rrss-link" target='_blank'>
                         <font-awesome-icon icon="fa-brands fa-instagram" class="icons-footer" />
                     </a>
 <!--                    <a href="https://www.facebook.com/redfoxargentina" class="rrss-link" target='_blank'>-->
@@ -99,10 +99,7 @@ import { Link } from "@inertiajs/vue3";
                     Copyright &copy; {{ new Date().getFullYear() }} Tercios
                 </p>
                 <p class="text-center text-xs dms-sans-reg">
-                    Corredor inmobiliario responsable: Dr. Augusto José Müller <span class="redfox-red">-</span> Matrículas: CUCICBA 7910
-                    <span class="redfox-red">/</span> CMCPSI 6735 <span class="redfox-red">/</span>
-                    CCPIM 171 <span class="redfox-red">/</span> COCIR 2297 <span class="redfox-red">/</span>
-                    T° 100 F° 574 CPACF
+                    Ciudad Autónoma de Buenos Aires Av. Corrientes 1386 11A (CP. 1043)
                 </p>
 <!--                <p class="text-center text-xs dms-sans-reg">-->
 <!--                    Abogado responsable: Dr. Pablo José Stachon <span class="redfox-red">-</span> Matrículas: T° 102 F° 63 CPACF-->
