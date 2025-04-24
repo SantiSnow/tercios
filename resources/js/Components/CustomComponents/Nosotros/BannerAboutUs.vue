@@ -8,7 +8,7 @@ import { Link } from "@inertiajs/vue3";
 <template>
     <div id="carouselExampleSlidesOnly" class="home-banner">
         <div class="d-flex justify-center align-center flex-col" id="main-home-title">
-            <h3 class="text-md">Somos una red de profesionales especializados</h3>
+            <h3 class="text-md">Somos una <strong>red de profesionales especializados</strong></h3>
 <!--            <Link class="btn btn-danger mt-4 contact-us btn-height-standard" href="/contacto">CONTACTANOS</Link>-->
         </div>
     </div>
@@ -70,7 +70,7 @@ export default {
 {
     position: relative;
     min-height: 75vh;
-    background-image: url("/images/home/home-page1.png");
+    background-image: url("/images/servicios/bg-service-inmo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
