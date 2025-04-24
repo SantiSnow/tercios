@@ -13,7 +13,7 @@ import BlogNews from "@/Components/CustomComponents/BlogNews.vue";
             <HomeBanner />
             <CardServices />
             <ServicesHome />
-            <MiddleBanner />
+<!--            <MiddleBanner />-->
             <BlogNews :posts="posts" />
         </PageLayout>
     </main>

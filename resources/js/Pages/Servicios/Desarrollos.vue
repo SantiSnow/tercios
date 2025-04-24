@@ -75,14 +75,14 @@ img_3.src="/images/services-carousel/carousel-desarrollos3.jpg";
                 </div>
             </div>
         </section>
-        <MiddleBanner />
-        <section class="bg-color-lightblue">
-            <div class="container py-12">
-                <div class="row d-flex justify-center">
-                    <MapsCarousel />
-                </div>
-            </div>
-        </section>
+<!--        <MiddleBanner />-->
+<!--        <section class="bg-color-lightblue">-->
+<!--            <div class="container py-12">-->
+<!--                <div class="row d-flex justify-center">-->
+<!--                    <MapsCarousel />-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
     </PageLayout>
 </template>
