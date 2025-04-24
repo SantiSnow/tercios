@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-6">
                         <h6 class="uppercase dms-sans-reg">sucursal</h6>
-                        <h3 class="uppercase redfox-red dms-sans-reg">Redfox Caba</h3>
+                        <h3 class="uppercase redfox-red dms-sans-reg">Tercios Caba</h3>
                         <br />
                         <p class="dms-sans-reg">Ciudad Autónoma de Buenos Aires</p>
                         <p class="dms-sans-reg">Av. Corrientes 1386 11A (CP. 1043)</p>
@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-6">
                         <h6 class="uppercase dms-sans-reg">sucursal</h6>
-                        <h3 class="uppercase dms-sans-reg redfox-red">Redfox norte</h3>
+                        <h3 class="uppercase dms-sans-reg redfox-red">Tercios norte</h3>
                         <br />
                         <p class="dms-sans-reg">San Isidro, Buenos Aires</p>
                         <p class="dms-sans-reg">Rivadavia 154, oficina 205/6 (CP. 1642)</p>
@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-6">
                         <h6 class="uppercase dms-sans-reg">sucursal</h6>
-                        <h3 class="uppercase dms-sans-reg redfox-red">Redfox Nea</h3>
+                        <h3 class="uppercase dms-sans-reg redfox-red">Tercios Nea</h3>
                         <br />
                         <p class="dms-sans-reg">Aristóbulo del Valle, Misiones</p>
                         <p class="dms-sans-reg">25 de Mayo 1000 (CP. 3364)</p>

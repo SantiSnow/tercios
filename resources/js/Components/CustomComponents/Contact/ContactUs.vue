@@ -30,7 +30,7 @@
 
             <div class="mb-6 tyc-check d-flex">
                 <input type="checkbox" name="accepts_ads" id="accepts_ads" v-model="form.accepts_ads" />
-                <label for="accepts_ads" class="dms-sans-reg">Autorizo a que RedFox Argentina me contacte vía mail con novedades</label>
+                <label for="accepts_ads" class="dms-sans-reg">Autorizo a que Tercios Argentina me contacte vía mail con novedades</label>
             </div>
 
             <div class="row mb-6 btn-row">
